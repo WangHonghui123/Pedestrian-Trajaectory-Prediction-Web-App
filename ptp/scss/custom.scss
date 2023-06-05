@@ -1,0 +1,24 @@
+// Custom.scss
+
+
+// custom code here
+// theme color
+$primary: #2C2E31;
+$secondary: #D1D0C5;
+//$success:;
+$info: #E2B714;
+//$warning:;
+//$danger:;
+//$light:;
+//$dark:;
+$body-color: #646669;
+$body-bg:#323437;
+
+// font family set here
+@font-face {
+	font-family: LexendDeca;
+	src: url(./fonts/Lexend_Deca/LexendDeca-VariableFont_wght.ttf) format('truetype');
+}
+$font-family-base: LexendDeca , sans-serif;
+
+@import "../node_modules/bootstrap/scss/bootstrap"

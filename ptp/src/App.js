@@ -1,8 +1,7 @@
 import logo from './logo.svg';
-import './App.css';
 import React from "react"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import 'bootstrap/dist/css/bootstrap.min.css'; // import bootstrap css lib for react
+import './assets/style.css'; // import customized bootstrap css
 // web page components are included below
 import Intro from './pages/Intro';
 import Application from './pages/application';
