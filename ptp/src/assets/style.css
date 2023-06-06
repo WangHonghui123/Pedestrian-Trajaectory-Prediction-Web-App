@@ -1,8 +1,18 @@
 @charset "UTF-8";
+.container {
+  letter-spacing: 0.08rem;
+}
+
 @font-face {
   font-family: LexendDeca;
   src: url(./fonts/Lexend_Deca/LexendDeca-VariableFont_wght.ttf) format("truetype");
 }
+#centerContent {
+  max-width: 1000px;
+  max-height: 100vh;
+  padding: 2rem;
+}
+
 /*!
  * Bootstrap  v5.3.0 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
