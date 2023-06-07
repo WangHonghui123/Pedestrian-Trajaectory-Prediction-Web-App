@@ -1,0 +1,38 @@
+// Custom.scss
+
+// to compile this file to css, type in terminal under \ptp:
+// sass .\scss\custom.scss .\src\assets\style.css
+
+// custom code here
+// theme color
+$primary: #2C2E31;
+$secondary: #D1D0C5;
+//$success:;
+$info: #E2B714;
+//$warning:;
+//$danger:;
+//$light:;
+//$dark:;
+$body-color: #646669;
+$body-bg:#323437;
+
+// letter spacing
+.container {
+	letter-spacing: 0.08rem;
+}
+
+// font family set here
+@font-face {
+	font-family: LexendDeca;
+	src: url(./fonts/Lexend_Deca/LexendDeca-VariableFont_wght.ttf) format('truetype');
+}
+$font-family-base: LexendDeca , sans-serif;
+
+// center content setting
+#centerContent {
+	max-width: 1000px;
+	max-height: 100vh;
+	padding: 2rem;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap"
