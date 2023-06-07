@@ -12,8 +12,8 @@ const infoFooter = () => {
 					<Col sm={1}>
 						<a href="https://github.com/WangHonghui123/Pedestrian-Trajaectory-Prediction-Web-App" className="link-info">GitHub</a>
 					</Col>
-					<Col sm={1}>
-						<p>version 0.1.0</p>
+					<Col sm={2}>
+						<p>version 0.1.0 Beta</p>
 					</Col>
 				</Row>
 			</Container>
